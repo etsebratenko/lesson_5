@@ -1,0 +1,51 @@
+body {
+    background-color: khaki;
+/* цвет фона применяеться ко всему тегу body, вес 1  */
+}
+
+h1 {
+    color: darkorange;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+.first {
+    color: brown;
+    font-style: oblique;
+}
+
+.font {
+    color: black;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aquamarine;
+}
+
+.style {
+    color: teal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: darkgoldenrod;
+}
+
+#red1,
+#red2 {
+    color: violet;
+    font-style: italic;
+    text-decoration: line-through;
+}
+
+#green1,
+#green2 {
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: darkseagreen;
+}
+p:first-of-type {
+    color: black;
+}
+
+p:last-of-type {
+    color: cornflowerblue;
+}
+
