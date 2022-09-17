@@ -1,54 +1,70 @@
 body {
-    background-color: khaki;
-/* цвет фона применяеться ко всему тегу body, вес 1  */
-}
-
-h1 {
-    color: darkorange;
+    background-color: white
+  }
+  h1 {
+    background-color: gray;
+    color: white;
     font-style: italic;
-    text-transform: capitalize;
-}
-
-.first {
-    color: brown;
-    font-style: oblique;
-}
-
-.font {
-    color: black;
-    font-style: italic;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: aquamarine;
-}
-
-.style {
-    color: teal;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    background-color: darkgoldenrod;
-}
-
-#red1,
-#red2 {
+  }
+  
+  #violet {
     color: violet;
-    font-style: italic;
-    text-decoration: line-through;
-}
-
-#green1,
-#green2 {
-    color: darkblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: darkseagreen;
-}
-p:first-of-type {
+  }
+  
+  #red {
+    color: red;
+  }
+  
+  #orange {
+    color: darkorange;
+  }
+  
+  #brown {
+    color: brown;
+  }
+  
+  #green {
+    color: green;
+  }
+  
+  #blue {
+    color: blue;
+  }
+  
+  #black {
     color: black;
-}
-
-p:last-of-type {
-    color: cornflowerblue;
-}
-
-p:nth-child(4) {
-    color: snow;
-}
+  }
+  
+  #yellow {
+    color: yellow;
+  }
+  
+  #pink {
+    color: pink;
+  }
+  
+  .bg-gray {
+    font-style: italic;
+    background-color: lightslategray;
+  }
+  
+  .bg-black {
+    font-style: inherit;
+    background-color: black;
+  }
+  
+  .underline {
+    text-decoration: underline;
+  }
+  
+  :nth-of-type(2) {
+    font-size: 32px;
+  }
+  
+  p:last-of-type::first-letter {
+    font-size: 30px;
+  }
+  
+  div>p:nth-child(4) {
+    color: gold;
+  }
